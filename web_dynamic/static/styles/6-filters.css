@@ -19,6 +19,7 @@ section.filters > button{
     margin-left: auto;
     margin-right: 30px;
     opacity: 1;
+    cursor: pointer;
 }
 
 section.filters > button:hover {
@@ -45,6 +46,11 @@ section.filters > button:hover {
     margin: 0 0 5px 0;
 }
 
+.locations h4, .amenities h4 {
+    overflow-y: auto;
+    max-height: 30px;
+}
+
 .popover {
     display: none;
     position: relative;
@@ -56,8 +62,13 @@ section.filters > button:hover {
     z-index: 1;
     padding: 30px 50px 30px 0;
     margin-top: 17px;
+    top: 0px;
     max-height: 300px;
     overflow-y: scroll;
+}
+
+.popover-top {
+    margin-top:0px;
 }
 
 .popover, .popover ul {

@@ -99,3 +99,26 @@
 .user {
   margin-bottom: 1.5%;
 }
+
+.reviews {
+    margin-top: 20px;
+}
+
+.reviews div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.reviews h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.reviews h2 span {
+    margin: 0;
+    background: #e0e0e0;
+    border-radius: 20%;
+    padding: 0 5px;
+    cursor: pointer;
+}
